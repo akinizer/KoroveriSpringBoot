@@ -16,3 +16,9 @@ How to run:
 	  or with npm start
 	
   4. The IDE routes you to localhost:3000/CaseModel that is operated by React for frontend
+
+Features:
+  - Access to JSON files through browser as a list of records
+  - Interactive insert operation
+  - Filtered search by city and date
+  - Graphical charts
