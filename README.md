@@ -2,7 +2,7 @@
 
 This project is backend part of KoronaVerileri project. It benefits from SpringBoot, RESTful API, Maven, MongoDB, Java and XML. It is prepared on Eclipse IDE and Windows OS
 
-The frontend side is KoroverReactive. It provides Reactive Bootstrap 
+The frontend side is KoroveriReactive. It provides Reactive Bootstrap 
 
 Link: https://github.com/akinizer/KoroveriReactive
 
