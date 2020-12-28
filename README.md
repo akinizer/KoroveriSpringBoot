@@ -11,7 +11,7 @@ How to run:
   2. Run KoronaVerileri for backend and RESTful API
 	    Through IDE or Command Prompt
   3. Run KoronaReact integrated with CodeRemix Plugin 
-	  in Eclipse (be sure CORS Protocol is disabled on your browser, you can use Chrome Extension to set Access-Control-Allow-Origin:ON if it is necessarry)
+	  in Eclipse (be sure CORS Protocol is disabled on your browser, you can use Chrome Extension "Access-Control-Allow-Origin:ON" if it is necessarry)
 	  or with react-scripts start
 	  or with npm start
 	
