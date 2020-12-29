@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.spring.KoronaVerileri.Model.CaseModel;
@@ -138,15 +139,11 @@ public class CaseController {
 	
  
 	// INSERT //
-  
-	@PostMapping(path = "/add")
-	public ResponseEntity<HashMap<String, Object>> addCase(@RequestBody CaseModel caseModel) throws Exception {
-		HashMap<String, Object> resp = new HashMap<>();
+	@PostMapping(path="/add")
+	public void add(@RequestBody CaseModel caseModel) {
 		caseRepository.insert(caseModel);
-		resp.put("caseModel", caseModel);
-		return new ResponseEntity<>(resp, HttpStatus.OK);
-	} 
-  
+	}
+
 	// DELETE //
 	@DeleteMapping("/delete/{id}")
 	public ResponseEntity<HttpStatus> deleteCase(@PathVariable("id") ObjectId _id) {
