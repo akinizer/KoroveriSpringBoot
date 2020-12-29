@@ -1,6 +1,6 @@
 # KoroveriSpringBoot
 
-This project is backend part of KoronaVerileri project. It benefits from SpringBoot, RESTful API, Maven, MongoDB, Java and XML. It is prepared on Eclipse IDE and Windows OS and test with Chrome
+This project is backend part of KoronaVerileri project. It benefits from SpringBoot, RESTful API, JUnit, DevTools, Maven, MongoDB, Java and XML. It is prepared on Eclipse IDE and Windows OS and test with Chrome
 
 The frontend side is KoroveriReactive. It provides Reactive Bootstrap 
 
@@ -29,4 +29,4 @@ Features:
   - Access to JSON files through browser as a list of records
   - Interactive CRUD operations
   - Filtered search by city and date
-  - Graphical charts
+  - Unit tests
