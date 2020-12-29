@@ -22,7 +22,8 @@ Notes:
    - Disable any browser extension with grammar or text checks, that can be incompatible with text formats
    - Start the "temporary" React VIEW through "chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security" from the directory of chrome.exe
    	-This will avoid CORS for POST methods, that is a policy unfriendly with localhost port transactions and interrupts CRUD operations for database management
-   - Fetching operations works asynchroniously. For the performance efficiency, while listing contents, wait for the process to be done
+   - Fetching operations works asynchroniously. For the performance efficiency, while listing contents, wait for the process to be done. 
+   	Otherwise, REACT API will interrupt the CRUD operations as a part of its features   
    
 Features:
   - Access to JSON files through browser as a list of records
