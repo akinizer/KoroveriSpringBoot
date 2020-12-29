@@ -23,6 +23,6 @@ Notes:
    
 Features:
   - Access to JSON files through browser as a list of records
-  - Interactive insert operation
+  - Interactive CRUD operations
   - Filtered search by city and date
   - Graphical charts
