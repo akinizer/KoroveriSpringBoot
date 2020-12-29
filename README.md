@@ -20,6 +20,8 @@ How to run:
 Notes: 
    - Be sure CORS Protocol is disabled on your browser, you can use Chrome Extension "Access-Control-Allow-Origin:ON" if it is necessary)
    - Disable any browser extension with grammar or text checks, that can be incompatible with text formats
+   - Start the "temporary" React VIEW through "chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security" from the directory of chrome.exe
+   	-This will avoid CORS for POST methods, that is a policy unfriendly with localhost port transactions and interrupts CRUD operations for database management
    
 Features:
   - Access to JSON files through browser as a list of records
