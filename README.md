@@ -19,7 +19,7 @@ How to run:
 
 Notes: 
    - Be sure CORS Protocol is disabled on your browser, you can use Chrome Extension "Access-Control-Allow-Origin:ON" if it is necessary)
-   - Disable any extension with grammar or text checks, that can be incompatible with text formats
+   - Disable any browser extension with grammar or text checks, that can be incompatible with text formats
    
 Features:
   - Access to JSON files through browser as a list of records
