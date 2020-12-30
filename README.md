@@ -30,3 +30,4 @@ Features:
   - Interactive CRUD operations
   - Filtered search by city and date
   - Unit tests
+  - Dynamic Canvas Data Charts
