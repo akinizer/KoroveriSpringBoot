@@ -16,6 +16,13 @@ How to run:
 	  or with npm start
 	
   4. The IDE routes you to localhost:3000/CaseModel that is operated by React for frontend
+  
+Features:
+  - Access to JSON files through browser as a list of records
+  - Interactive CRUD operations
+  - Filtered search by city and date
+  - Unit tests
+  - Dynamic Canvas Data Charts
 
 Notes: 
    - Be sure CORS Protocol is disabled on your browser, you can use Chrome Extension "Access-Control-Allow-Origin:ON" if it is necessary)
@@ -23,11 +30,4 @@ Notes:
    - Start the "temporary" React VIEW through "chrome.exe --user-data-dir="C://Chrome dev session" --disable-web-security" from the directory of chrome.exe
    	-This will avoid CORS for POST methods, that is a policy unfriendly with localhost port transactions and interrupts CRUD operations for database management
    - Fetching operations works asynchroniously. For the performance efficiency, while listing contents, wait for the process to be done. 
-   	Otherwise, REACT API will interrupt the CRUD operations as a part of its predefined features   
-   
-Features:
-  - Access to JSON files through browser as a list of records
-  - Interactive CRUD operations
-  - Filtered search by city and date
-  - Unit tests
-  - Dynamic Canvas Data Charts
+   	Otherwise, REACT API will interrupt the CRUD operations as a part of its predefined features
